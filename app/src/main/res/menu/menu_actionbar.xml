@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/orderByFav"
+        android:icon="@drawable/star_empty"
+        android:title="star"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/filterBySymbolOrNumber"
+        android:icon="@drawable/sort_by_alphabet"
+        android:title="orderBy"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/filterByPhase"
+        android:title="Phases" >
+        <menu >
+            <item
+                android:id="@+id/filterAllPhases"
+                android:title="All phases" />
+            <item
+                android:id="@+id/filterSolids"
+                android:title="Solids" />
+            <item
+                android:id="@+id/filterLiquids"
+                android:title="Liquids"></item>
+            <item
+                android:id="@+id/filterGases"
+                android:title="Gases" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/filterByCategory"
+        android:title="Categories" >
+        <menu >
+            <item
+                android:id="@+id/allCategories"
+                android:title="All" />
+            <item
+                android:id="@+id/diatomicNonMetals"
+                android:checkable="true"
+                android:title="Diatomics non-metals" />
+            <item
+                android:id="@+id/polyatomicNonMetals"
+                android:checkable="true"
+                android:title="Polyatomic non-metals" />
+            <item
+                android:id="@+id/nobleGases"
+                android:checkable="true"
+                android:title="Noble gases" />
+            <item
+                android:id="@+id/alkalineMetals"
+                android:checkable="true"
+                android:title="Alkaline metals" />
+            <item
+                android:id="@+id/alkalineEarthMetals"
+                android:checkable="true"
+                android:title="Alkaline earth metals" />
+            <item
+                android:id="@+id/transitionMetals"
+                android:checkable="true"
+                android:title="Transition metals" />
+            <item
+                android:id="@+id/metalloids"
+                android:checkable="true"
+                android:title="Metalloids" />
+            <item
+                android:id="@+id/postTransitionMetals"
+                android:checkable="true"
+                android:title="Post-transition metals" />
+            <item
+                android:id="@+id/actinides"
+                android:checkable="true"
+                android:title="Actinides" />
+            <item
+                android:id="@+id/lanthanides"
+                android:checkable="true"
+                android:title="Lanthanides" />
+        </menu>
+    </item>
+</menu>
